@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import axios from 'axios'
-
+import {User} from '../../templates'
 
 const UserLogin = () => {
     const [userid, setUserid] = useState()    
@@ -27,7 +27,7 @@ const UserLogin = () => {
     }
     
 
-return (<>
+return (<User>
 <h1>로그인창</h1>
 <table>
     <tr>
@@ -45,6 +45,6 @@ return (<>
         </td>
     </tr>
 </table>
-</>)}
+</User>)}
 
 export default UserLogin
