@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './table.style.css'
 import { BoardMenu } from '../components/Menu';
 
 const Board = () => <>

@@ -29,7 +29,7 @@ const UserLogin = () => {
 
 return (<User>
 <h1>로그인창</h1>
-<table>
+<table className = ''>
     <tr>
         <td>ID</td> 
         <td><input type="text" onChange={e => setUserid(`${e.target.value}`)}/></td>
